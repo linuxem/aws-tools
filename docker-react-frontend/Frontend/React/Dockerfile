@@ -28,7 +28,7 @@ RUN npm run build
 
 RUN yarn
 
-FROM nginx:latest as runtime
+FROM nginx:1.23 as runtime
 
 WORKDIR /usr/share/nginx/html
 
