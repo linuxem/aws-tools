@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 # Update and install packages
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y update --fix-missing && \
